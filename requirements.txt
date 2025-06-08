@@ -1,0 +1,34 @@
+# Core web framework
+streamlit>=1.28.0
+
+# Original requirements
+selenium>=4.15.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+webdriver-manager>=4.0.0
+pandas>=2.0.0
+validators>=0.22.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Scrapy and dependencies
+scrapy>=2.11.0
+twisted>=22.10.0  # Scrapy's async framework
+pyopenssl>=23.0.0  # For HTTPS support
+cryptography>=41.0.0  # Required by pyOpenSSL
+
+# Additional utilities
+lxml>=4.9.0  # XML/HTML parsing (used by Scrapy)
+urllib3>=2.0.0
+chardet>=5.2.0
+
+# Optional: Enhanced features
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.9.0
+flake8>=6.0.0
+whois
