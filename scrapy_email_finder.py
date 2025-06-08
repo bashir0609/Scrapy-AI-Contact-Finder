@@ -147,12 +147,12 @@ def get_whois_contacts(domain):
 
 def main():
     st.set_page_config(
-        page_title="Enhanced Scrapy + AI Contact Finder",
+        page_title="Scrapy + AI Contact Finder",
         page_icon="🔍",
         layout="wide"
     )
     
-    st.title("🔍 Enhanced Multi-Source Scrapy + AI Contact Finder")
+    st.title("🔍 Multi-Source Scrapy + AI Contact Finder")
     st.markdown("*AI research + Website crawling + WHOIS lookup + Professional networks*")
     
     # Load API key
