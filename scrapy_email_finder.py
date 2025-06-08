@@ -45,7 +45,7 @@ You are a professional business research assistant with real-time web browsing c
 **OUTPUT REQUIREMENTS**:
 
 Return a markdown table with these columns:
-| Name | Role | LinkedIn/Xing URL | Email | Phone | Source | Confidence |
+| Name | Role | LinkedIn/Xing URL | Email | Source | Confidence |
 
 **Email Guidelines**:
 - Use confirmed emails when found
