@@ -22,13 +22,36 @@ lxml>=4.9.0  # XML/HTML parsing (used by Scrapy)
 urllib3>=2.0.0
 chardet>=5.2.0
 
-# Optional: Enhanced features
-openpyxl>=3.1.0
-xlsxwriter>=3.1.0
+# Enhanced features for improved app
+openpyxl>=3.1.0  # Excel file handling
+xlsxwriter>=3.1.0  # Excel writing
+whois>=0.9.27  # WHOIS domain lookup
+
+# For concurrent processing
+concurrent-futures>=3.1.1
+
+# Data processing and export
+numpy>=1.24.0
+xlrd>=2.0.1  # Reading old Excel formats
+
+# Web scraping enhancements
+cloudscraper>=1.2.71  # Bypass Cloudflare
+fake-useragent>=1.4.0  # Random user agents
+retrying>=1.3.4  # Retry mechanisms
+
+# Additional email validation
+email-validator>=2.1.0
+dns-python>=2.4.2  # DNS lookups for email validation
+
+# Scrapy integration for Streamlit
+crochet>=2.0.0  # Required for running Scrapy in Streamlit
 
 # Development and testing (optional)
 pytest>=7.4.0
 pytest-cov>=4.1.0
 black>=23.9.0
 flake8>=6.0.0
-whois
+
+# Security and performance
+certifi>=2023.7.22
+idna>=3.4
